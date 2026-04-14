@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Tienda de muebles Muebles Ligno">
+    <meta name="author" content="Muebles Ligno">
+    <link rel="icon" href="assets/images/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+
+    <title>Muebles Ligno | Tienda en línea</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+  </head>
+
+  <body>
+    <!-- ***** Preloader Start ***** -->
+    <div id="preloader">
+      <div class="jumper">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+    <!-- ***** Preloader End ***** -->
+
+    <!-- Header -->
+   <header class="">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="index.html"><h2>Muebles <em>Ligno</em></h2></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Inicio
+                      <span class="sr-only">(actual)</span>
+                    </a>
+                </li> 
+                 <a class="nav-link" href="{{ route('solicitudes.create') }}">Solicitud Personalizada</a>
+            </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Más</a>
+                    
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="about-us.html">Sobre nosotros</a>
+                      <a class="dropdown-item" href="blog.html">Blog</a>
+                      <a class="dropdown-item" href="testimonials.html">Testimonios</a>
+                      <a class="dropdown-item" href="terms.html">Términos</a>
+                    </div>
+                </li>
+                
+                <li class="nav-item"><a class="nav-link" href="checkout.html">Pago</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contáctanos</a></li>
+                
+                <li class="nav-item"><a class="nav-link" href="registro.html">Registro</a></li>
+                <li class="nav-item"><a class="nav-link" href="login.html">Iniciar sesión</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Page Content -->
+    <!-- Banner Starts Here -->
+    <div class="banner header-text">
+      <div class="owl-banner owl-carousel">
+        <div class="banner-item-01">
+          <div class="text-content">
+            <h4>Encuentra tu mueble ideal</h4>
+            <h2>Mobiliario a tu medida</h2>
+          </div>
+        </div>
+        <div class="banner-item-02">
+          <div class="text-content">
+            <h4>Diseños personalizados</h4>
+            <h2>Calidad y estilo para tu hogar</h2>
+          </div>
+        </div>
+        <div class="banner-item-03">
+          <div class="text-content">
+            <h4>Hecho a mano</h4>
+            <h2>Detalles que marcan la diferencia</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Banner Ends Here -->
+
+    <div class="latest-products">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-heading">
+              <h2>Productos destacados</h2>
+              <a href="products.html">Ver más <i class="fa fa-angle-right"></i></a>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="product-item">
+              <a href="product-details.html"><img src="assets/images/product-1-370x270.jpg" alt=""></a>
+              <div class="down-content">
+                <a href="product-details.html"><h4>Mueble destacado 1</h4></a>
+                <h6><small><del>$999.00 </del></small> $779.00</h6>
+                <p>Descripción breve del mueble, materiales y estilo.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="product-item">
+              <a href="product-details.html"><img src="assets/images/product-2-370x270.jpg" alt=""></a>
+              <div class="down-content">
+                <a href="product-details.html"><h4>Mueble destacado 2</h4></a>
+                <h6><small><del>$99.00</del></small> $79.00</h6>
+                <p>Descripción breve del mueble, ideal para tu hogar u oficina.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="product-item">
+              <a href="product-details.html"><img src="assets/images/product-3-370x270.jpg" alt=""></a>
+              <div class="down-content">
+                <a href="product-details.html"><h4>Mueble destacado 3</h4></a>
+                <h6><small><del>$1999.00</del></small> $1779.00</h6>
+                <p>Mueble de alta calidad, diseñado para espacios modernos.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Los demás productos pueden quedarse igual y luego los ajustas tú -->
+          <div class="col-md-4">
+            <div class="product-item">
+              <a href="product-details.html"><img src="assets/images/product-4-370x270.jpg" alt=""></a>
+              <div class="down-content">
+                <a href="product-details.html"><h4>Mueble destacado 4</h4></a>
+                <h6><small><del>$999.00 </del></small> $779.00</h6>
+                <p>Descripción breve del mueble.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="product-item">
+              <a href="product-details.html"><img src="assets/images/product-5-370x270.jpg" alt=""></a>
+              <div class="down-content">
+                <a href="product-details.html"><h4>Mueble destacado 5</h4></a>
+                <h6><small><del>$999.00 </del></small> $779.00</h6>
+                <p>Descripción breve del mueble.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="product-item">
+              <a href="product-details.html"><img src="assets/images/product-6-370x270.jpg" alt=""></a>
+              <div class="down-content">
+                <a href="product-details.html"><h4>Mueble destacado 6</h4></a>
+                <h6><small><del>$999.00 </del></small> $779.00</h6>
+                <p>Descripción breve del mueble.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="best-features">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-heading">
+              <h2>Sobre nosotros</h2>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="left-content">
+              <p>
+                En <strong>Muebles Ligno</strong> creamos muebles funcionales y estéticos para cada espacio de tu hogar.
+                Nos enfocamos en la calidad de los materiales y en el diseño personalizado.
+              </p>
+              <ul class="featured-list">
+                <li><a href="#">Muebles personalizados a medida</a></li>
+                <li><a href="#">Materiales de alta calidad</a></li>
+                <li><a href="#">Diseños modernos y funcionales</a></li>
+                <li><a href="#">Atención personalizada a cada cliente</a></li>
+              </ul>
+              <a href="about-us.html" class="filled-button">Leer más</a>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="right-image">
+              <img src="assets/images/about-1-570x350.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="services" style="background-image: url(assets/images/other-image-fullscren-1-1920x900.jpg);">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-heading">
+              <h2>Últimas entradas del blog</h2>
+              <a href="blog.html">Ver más <i class="fa fa-angle-right"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="service-item">
+              <a href="#" class="services-item-image">
+                <img src="assets/images/blog-1-370x270.jpg" class="img-fluid" alt="">
+              </a>
+              <div class="down-content">
+                <h4><a href="#">Tendencias en diseño de interiores</a></h4>
+                <p style="margin: 0;">John Doe &nbsp;&nbsp;|&nbsp;&nbsp; 12/06/2020 10:30 &nbsp;&nbsp;|&nbsp;&nbsp; 114</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="service-item">
+              <a href="#" class="services-item-image">
+                <img src="assets/images/blog-2-370x270.jpg" class="img-fluid" alt="">
+              </a>
+              <div class="down-content">
+                <h4><a href="#">Cómo elegir el mueble perfecto</a></h4>
+                <p style="margin: 0;">John Doe &nbsp;&nbsp;|&nbsp;&nbsp; 12/06/2020 10:30 &nbsp;&nbsp;|&nbsp;&nbsp; 114</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="service-item">
+              <a href="#" class="services-item-image">
+                <img src="assets/images/blog-3-370x270.jpg" class="img-fluid" alt="">
+              </a>
+              <div class="down-content">
+                <h4><a href="#">Ideas para optimizar espacios pequeños</a></h4>
+                <p style="margin: 0;">John Doe &nbsp;&nbsp;|&nbsp;&nbsp; 12/06/2020 10:30 &nbsp;&nbsp;|&nbsp;&nbsp; 114</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="happy-clients">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-heading">
+              <h2>Clientes satisfechos</h2>
+              <a href="testimonials.html">Ver más <i class="fa fa-angle-right"></i></a>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <div class="owl-clients owl-carousel text-center">
+
+              <div class="service-item">
+                <div class="icon">
+                  <i class="fa fa-user"></i>
+                </div>
+                <div class="down-content">
+                  <h4>John Doe</h4>
+                  <p class="n-m"><em>"Excelente calidad y atención, mi mueble superó las expectativas."</em></p>
+                </div>
+              </div>
+
+              <div class="service-item">
+                <div class="icon">
+                  <i class="fa fa-user"></i>
+                </div>
+                <div class="down-content">
+                  <h4>Jane Smith</h4>
+                  <p class="n-m"><em>"Diseños muy bonitos y personalizados para mi hogar."</em></p>
+                </div>
+              </div>
+
+              <div class="service-item">
+                <div class="icon">
+                  <i class="fa fa-user"></i>
+                </div>
+                <div class="down-content">
+                  <h4>Antony Davis</h4>
+                  <p class="n-m"><em>"Entrega a tiempo y acabado profesional en todos los detalles."</em></p>
+                </div>
+              </div>
+
+              <!-- Puedes repetir más testimonios si quieres -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="call-to-action">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="inner-content">
+              <div class="row">
+                <div class="col-md-8">
+                  <h4>¿Listo para renovar tus espacios?</h4>
+                  <p>Contáctanos y diseña junto con nosotros el mueble perfecto para tu hogar u oficina.</p>
+                </div>
+                <div class="col-lg-4 col-md-6 text-right">
+                  <a href="contact.html" class="filled-button">Contáctanos</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="inner-content">
+              <p>Copyright © 2020 Muebles Ligno - Plantilla basada en PHPJabbers.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Additional Scripts -->
+    <script src="assets/js/custom.js"></script>
+    <script src="assets/js/owl.js"></script>
+  </body>
+</html>

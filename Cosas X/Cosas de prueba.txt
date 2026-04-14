@@ -1,0 +1,65 @@
+v
+joseal22@gmail.com
+josea22pp
+
+@TierraYuca70@gmail.com
+
+
+nelsonch
+nelsonchava25@gmail.com
+Blackp25
+
+Nelson25
+nelsonchav205@gmail.com
+@DevilBlack25
+
+SylentGS
+sylentgraves@gmail.com
+Phantom33
+
+Noilar
+noilarredroom@gmail.com
+Noilar22@
+
+
+mueblesligno@gmail.com
+@Service/Ligno3445p
+
+MueblesLignoWeb
+zmpftsnbqxslsczo
+
+# Inicia el servidor de Laravel y limpieza:
+
+https://untampered-jacquelin-superleniently.ngrok-free.dev
+
+php artisan optimize:clear
+php artisan event:clear
+php artisan serve
+
+php artisan optimize:clear
+php artisan serve
+
+php artisan route:clear
+php artisan config:clear
+php artisan serve
+
+
+php artisan view:clear
+php artisan serve
+
+.blade.php
+
+
+ngrok http 8000
+
+Manuel
+manuelsev12@gmail.com
+Manuel2234
+
+
+php artisan tinker
+use Illuminate\Support\Facades\Mail;
+Mail::raw('Prueba Gmail desde Laravel', function ($m) {
+...     $m->to('nelsonchav205@gmail.com
+')->subject('Test Gmail Laravel');
+... });
